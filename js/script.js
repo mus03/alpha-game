@@ -56,6 +56,7 @@ function play() {
   setElementValueById("span-score", 0);
 }
 function gameOver() {
+  addClass("begin-screen");
   addClass("play-ground");
   removeClass("end-screen");
   //update final score in the end screen
